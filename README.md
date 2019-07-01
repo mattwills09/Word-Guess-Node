@@ -1,4 +1,5 @@
-# Word-Guess-Node
+# Word Guess Game (aka Hangman) Node Version
+___
 
 For this project we were asked to create a basic hangman, or word guess game, that would be run entirely in the terminal by the user, based off of javascipt constructors and coding.  In the letter.js file, a constructor was created for 'Letter', that would hold the strings, boolean, and functions that would take the letter guessed and return either the guessed letter or an incorrect response.  Then in the words.js file, the Letter constructer is brought in, while creating the constructor 'Word', that would create an object with functions that would call on the Letter.js file to run the letter guessed through the word constructor.
 
